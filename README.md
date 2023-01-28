@@ -10,8 +10,11 @@ This template is preconfigured for AR foundation 5.0.3 which includes the XR Sim
 
 ```
  - Git client
- - Unity Editor version 2021.3.16f1 (LTS) or newer
+ - Unity Editor version 2023.1.0b1 or newer
 ```
+
+### Note
+* If you want to target Unity 2021.3.16f1 (LTS), you can use the tag [v0.1.0-LTS](https://github.com/JasonSpatial/ar-template/tree/v0.1.0-LTS)
 
 ### Installing
 
