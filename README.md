@@ -28,7 +28,7 @@ Follow these steps to create a project from this template and get it running in 
 
 ## Authors
 
-* **Jason harrison** - [JasonSpatial](https://github.com/JasonSpatial)
+* **Jason Harrison** - [JasonSpatial](https://github.com/JasonSpatial)
 
 ## License
 
