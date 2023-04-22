@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
  
+## [0.5.0] - 2023-04-21
+
+### Added
+
+- Simple object placement, selection, and translation (movement) via XR Interaction toolkit components
+
+### Changed
+
+- AR Foundation Package to 5.1.0-pre.4
+- ARKit XR Package to 5.1.0-pre.4
+- XR Interaction Toolkit Package to 2.3.1
+
 ## [0.3.0] - 2023-02-20
 
 ### Changed
