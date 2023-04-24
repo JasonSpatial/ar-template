@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 
 - Simple object placement, selection, and translation (movement) via XR Interaction toolkit components
+- Simple toggle buttons to enable and disable Touch Simulation
 
 ### Changed
 
