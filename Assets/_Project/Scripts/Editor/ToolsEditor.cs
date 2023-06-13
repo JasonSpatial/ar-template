@@ -2,19 +2,23 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem.EnhancedTouch;
 
-[CustomEditor(typeof(Tools))]
-public class ToolsEditor : Editor
+namespace LBXR
 {
-    public override void OnInspectorGUI()
+    [CustomEditor(typeof(Tools))]
+    public class ToolsEditor : Editor
     {
-        if (GUILayout.Button("Enable Touch Simulation"))
+        public override void OnInspectorGUI()
         {
-            TouchSimulation.Enable();
-        }
+            if (GUILayout.Button("Enable Touch Simulation"))
+            {
+                TouchSimulation.Enable();
+            }
 
-        if (GUILayout.Button("Disable Touch Simulation"))
-        {
-            TouchSimulation.Disable();
+            if (GUILayout.Button("Disable Touch Simulation"))
+            {
+                TouchSimulation.Disable();
+            }
         }
     }
 }
+
