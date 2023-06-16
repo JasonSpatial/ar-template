@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using LBXR;
 using NUnit.Framework;
+using Unity.PerformanceTesting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.TestTools;
@@ -10,14 +11,16 @@ using Tools = LBXR.Tools;
 
 public class ToolsEditorTestScript
 {
-    [UnityTest]
+    [UnityTest, Performance]
     public IEnumerator ToolsEditorButtonTests()
     {
         Tools tools = new GameObject().AddComponent<Tools>();
         tools.simulationEnabled = false;
 
         // Simulate Enable press
-        tools.OnEnablePressed();
+        Measure.Method(() => {
+            tools.OnEnablePressed();
+        }).Run();
 
         // Give Unity a frame to process the change
         yield return null;
@@ -26,8 +29,10 @@ public class ToolsEditorTestScript
         Assert.IsTrue(tools.simulationEnabled);
 
         // Simulate Disable press
-        tools.OnDisablePressed();
-
+        Measure.Method(() => {
+            tools.OnDisablePressed();
+        }).Run();
+        
         // Give Unity another frame to process the change
         yield return null;
 
