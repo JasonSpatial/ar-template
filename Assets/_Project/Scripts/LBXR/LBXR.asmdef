@@ -2,7 +2,11 @@
     "name": "LBXR",
     "rootNamespace": "LBXR",
     "references": [
-        "GUID:75469ad4d38634e559750d17036d5f7c"
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:a9420e37d7990b54abdef6688edbe313",
+        "GUID:92703082f92b41ba80f0d6912de66115",
+        "GUID:fe685ec1767f73d42b749ea8045bfe43",
+        "GUID:dc960734dc080426fa6612f1c5fe95f3"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
