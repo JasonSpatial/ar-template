@@ -4,8 +4,7 @@
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "LBXR",
-        "Unity.PerformanceTesting"
+        "LBXR"
     ],
     "includePlatforms": [
         "Editor"

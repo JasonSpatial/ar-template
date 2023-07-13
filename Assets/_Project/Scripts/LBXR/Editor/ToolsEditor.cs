@@ -1,5 +1,6 @@
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.InputSystem.EnhancedTouch;
 
 namespace LBXR
 {
@@ -8,16 +9,14 @@ namespace LBXR
     {
         public override void OnInspectorGUI()
         {
-            Tools tools = (Tools)target;
-            
             if (GUILayout.Button("Enable Touch Simulation"))
             {
-                tools.OnEnablePressed();
+                TouchSimulation.Enable();
             }
 
             if (GUILayout.Button("Disable Touch Simulation"))
             {
-                tools.OnDisablePressed();
+                TouchSimulation.Disable();
             }
         }
     }

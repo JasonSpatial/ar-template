@@ -4,9 +4,7 @@
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "LBXR",
-        "Unity.InputSystem",
-        "Unity.PerformanceTesting"
+        "LBXR"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
