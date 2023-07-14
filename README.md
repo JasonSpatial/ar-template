@@ -4,7 +4,9 @@ Start a new Unity AR Foundation project using this template.
 
 ## Getting Started
 
-This template is preconfigured for AR Foundation 5.1.0-pre.4 which includes the XR Simulation Environment for fast iteration of your project. It also includes the XR Interaction Toolkit 2.3.1 to quickly add interactable functionality to augmented reality projects.
+This template is preconfigured for AR Foundation 5.1.0-pre.8 which includes the XR Simulation Environment for fast iteration of your project.
+
+It also includes the XR Interaction Toolkit 2.3.2 to quickly add interactable functionality to augmented reality projects.
 
 ### Prerequisites
 

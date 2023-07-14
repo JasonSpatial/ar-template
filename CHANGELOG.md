@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
  
+
+## [0.6.0] - 2023-07-13
+
+### Added
+
+- XR Simulation Environment Prefabs
+
+### Changed
+
+- AR Foundation Package to 5.1.0-pre.8
+- ARKit XR Package to 5.1.0-pre.8
+- XR Interaction Toolkit Package to 2.3.2
+
 ## [0.5.0] - 2023-04-21
 
 ### Added
