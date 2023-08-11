@@ -4,7 +4,7 @@ Start a new Unity AR Foundation project using this template.
 
 ## Getting Started
 
-This template is preconfigured for AR Foundation 5.1.0-pre.8 which includes the XR Simulation Environment for fast iteration of your project.
+This template is preconfigured for AR Foundation 5.1.0-pre.10 which includes the XR Simulation Environment for fast iteration of your project.
 
 It also includes the XR Interaction Toolkit 2.3.2 to quickly add interactable functionality to augmented reality projects.
 
@@ -52,7 +52,9 @@ While holding down the right mouse button:
 
 **Note:** If your simulated environment includes horizontal and vertical planes, and they've been detected in a way that they touch, you should be able to drag the selected cube between them.
 
+## Community
 
+If you're building XR with Unity, and want to hang out with a bunch of other XRgonauts in a good-vibe community, check out [Lets' Build XR](https://www.skool.com/letsbuilxr). If it looks like your kind of place, hit the Join Group button and we'll see you inside!
 
 ## Authors
 

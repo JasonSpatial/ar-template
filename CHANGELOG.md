@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
  
+## [0.7.0] - 2023-08-10
+
+### Changed
+
+- AR Foundation Package to 5.1.0-pre.10
+- ARKit XR Package to 5.1.0-pre.10
 
 ## [0.6.0] - 2023-07-13
 
