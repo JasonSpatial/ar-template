@@ -13,7 +13,7 @@
     "com.unity.xr-content.xr-sim-environments": "file:../ContentPackages/com.unity.xr-content.xr-sim-environments-1.0.0.tgz",
     "com.unity.xr.arfoundation": "5.1.0-pre.10",
     "com.unity.xr.arkit": "5.1.0-pre.10",
-    "com.unity.xr.interaction.toolkit": "2.3.2",
+    "com.unity.xr.interaction.toolkit": "2.5.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
